@@ -1,0 +1,56 @@
+body {
+    background: rgb(156, 176, 186) url("../images/christmas-card-1171294-1598x875.jpg");
+    /* background-image: linear-gradient(rgb(196, 219, 231), rgb(215, 241, 254)); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    /* -webkit-text-stroke: 1px black; */
+    color: rgb(199, 41, 41);
+    font-weight: bold;
+    line-height: 2em;
+    text-shadow:
+        3px 3px 0 rgb(14, 88, 11),
+      -1px -1px 0 rgb(14, 88, 11),  
+       1px -1px 0 rgb(14, 88, 11),
+       -1px 1px 0 rgb(14, 88, 11),
+        1px 1px 0 rgb(14, 88, 11);
+    /* font-size: 3.5em;
+    color: rgb(206, 14, 14);
+    font-weight: bold;
+    text-shadow:
+    -2px -2px 0 darkgreen,
+    2px -2px 0 darkgreen,
+    -2px 2px 0 darkgreen,
+    2px 2px 0 darkgreen; */
+    
+}
+
+#plain {
+    color: black;
+    text-shadow: none;
+    -webkit-text-stroke: 1px white;
+}
+
+.page-header {
+    /* margin: 0px, 20px, 0px, 40px; */
+    /* text-align: center; */
+    width: 40%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.459);
+    border-radius: 25px;
+}
+
+.btn-success {
+    background-color: rgb(14, 88, 11);
+
+}
+
+#countdown-timer {
+    font-weight: 100;
+    color: green;
+}
+
+
+
