@@ -39,7 +39,6 @@ h2 {
 #really-plain {
     color: black;
     text-shadow: none;
-
 }
 
 .page-header {
@@ -53,12 +52,23 @@ h2 {
 
 .btn-success {
     background-color: rgb(14, 88, 11);
-
+    
 }
 
 #countdown-timer {
     font-weight: 100;
     color: green;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    -webkit-text-stroke: 1px red;
+    /* text-shadow:
+    3px 3px 0 rgb(14, 88, 11),
+    -1px -1px 0 rgb(14, 88, 11),  
+    1px -1px 0 rgb(14, 88, 11),
+    -1px 1px 0 rgb(14, 88, 11),
+    1px 1px 0 rgb(14, 88, 11); */
+
 }
 
 
