@@ -26,9 +26,9 @@ $("button").click(function() {
     for (i=0; i<questionBank.length; i++) {
         $(".page-header").append("<p>" + questionBank[i] + "</p>");
         for (j=0; j<answerBank[i].length; j++) {
-            $(".page-header").append("<input type='radio' name='question1'>" + answerBank[i][j] + " &nbsp;</input>");
-        $(".page-header").append("<br>", "<br>", "<br>");
+            $(".page-header").append("<input id='answers' type='radio' name='question-i'>" + answerBank[i][j] + " &nbsp;</input>");
         }
+        $(".page-header").append("<br>", "<br>", "<br>");
     }
 
  
